@@ -1,0 +1,82 @@
+.frame1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 88px;
+    border: 1px;
+    margin-top:88px;
+}
+
+.filter{
+    margin-right: 400px;
+}
+
+.recom select {
+    width: 200px; /* Increase width */
+    height: 40px; /* Increase height */
+    padding: 10px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    animation-duration: 300ms;
+  }
+
+  /* Style options for better visibility */
+  .recom option {
+    padding: 10px; /* Increase padding within options */
+    font-size: 16px; /* Adjust font size for options */
+  }
+
+  .items{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+
+ /* Add the custom styles for the select dropdown */
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+.custom-select select {
+  display: none; /* Hide the default select */
+}
+
+.select-selected {
+  background-color: #FFFFFF;
+}
+
+/* Style the arrow inside the select element */
+.select-selected:after {
+  content: "▼";
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  color: #333;
+  
+  font-size: 16px;
+}
+
+/* Style the items (options) */
+.select-items div,
+.select-selected {
+  color: #333;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  user-select: none;
+  background-color: #FFFFFF;
+}
+
+/* Style items (options): hover */
+.select-items div:hover,
+.same-as-selected {
+  background-color: #ddd;
+}
+
+/* Style the tick icon */
+.tick {
+  margin-right: 10px;
+}

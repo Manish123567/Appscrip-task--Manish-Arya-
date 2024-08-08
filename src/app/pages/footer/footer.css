@@ -1,0 +1,342 @@
+
+
+
+.container{
+	width: auto;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #0c0c0c;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	/* background-color: #e91e63; */
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+ .social-links a{
+	display: inline-block;
+	height: 27px;
+	width: 40px;
+	background-color: rgb(240 225 225);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	/* border-radius: 50%; */
+	color: #ffffff;
+	transition: all 0.5s ease;
+    /* padding: 5px; */
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.follow a{
+    background-color: rgba(10, 10, 10, 0.979);
+	/* margin:0 10px 10px 0;   */
+    border-radius: 50%;
+	color: #ffffff;
+    border: 1px solid white;
+	transition: all 0.5s ease;
+    padding: 5px;
+}
+
+.logo{
+/* align-items: center; */
+}
+
+.footer-col a{
+    margin: 0px 0px !important;
+}
+
+.footer-col .social-links p{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links span{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    /* margin-bottom: 30px; */
+    
+        width: 100%;
+display: flex;
+flex-direction: column;
+align-content: center;
+
+}
+@media(max-width: 574px){
+    .footer-col{
+       
+        /* margin-bottom: 30px; */
+        
+            width: 100%;
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container */
+.container2 {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    background-color: #0c0c0c;
+}
+
+/* Box */
+.box {
+    padding: 1.25rem;
+    /* background-color: #e5e7eb;  */
+    border-radius: 0.5rem; /* Tailwind Rounded-lg */
+    padding-top: 3rem;
+    margin: 1.25rem;
+}
+
+/* Text Content */
+.text-content {
+    /* text-align: center; */
+}
+
+.headline {
+    font-size: 20px; /* Tailwind text-3xl */
+    line-height: 2.5rem; /* Tailwind leading-10 */
+    color: #1e40af; /* Tailwind Blue-800 */
+    font-weight: 700; /* Tailwind font-bold */
+}
+
+.description {
+    font-size: 16px; /* Tailwind text-base */
+    color: #6b7280; /* Tailwind Gray-500 */
+    margin-top: 1rem;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    /* justify-content: center; */
+    gap: 8px; /* Tailwind space-x-3 */
+    padding: 14px 0px ;
+}
+
+.email-input {
+    background-color: #ffffff; /* Tailwind White */
+   
+    font-size: 0.875rem; /* Tailwind text-sm */
+    padding: 0.75rem 6rem; /* Tailwind px-2 sm:px-3 md:px-8 py-3 */
+}
+
+.subscribe-button {
+    font-weight: 700; /* Tailwind font-bold */
+    border-radius: 5px; /* Tailwind Rounded-lg */
+    color: #FFFFFF; /* Tailwind White */
+    background-color: #000000; /* Tailwind Blue-700 */
+    padding: 0.25rem 2.75rem; /* Tailwind px-3 py-1 md:px-6 md:py-3 */
+    cursor: pointer;
+    border: 1.14px;
+    opacity: 30%;
+    height: 48px;
+    border: 1px solid white;
+}
+
+.subscribe-button:hover {
+    background-color: #2563eb; /* Tailwind Blue-600 */
+}
+
+/* Footer Links */
+.footer-links {
+    font-weight: 700; /* Tailwind font-bold */
+    color: #1e40af; /* Tailwind Blue-700 */
+    text-align: center;
+}
+
+.links-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Tailwind space-x-6 */
+    padding-top: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Logo Section */
+.logo-section {
+    text-align: center;
+    padding-top: 1.25rem; /* Tailwind pt-5 */
+    margin-bottom: 1.25rem; /* Tailwind mb-5 */
+}
+
+.logo {
+    width: 10rem; /* Tailwind w-40 */
+}
+
+.social-links {
+    display: flex;
+    /* justify-content: center; */
+    /* gap: 1rem;  */
+    gap: 11px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+    width: 1rem; /* Tailwind w-4 */
+    fill: currentColor;
+    stroke: currentColor;
+    color: #1e40af; /* Tailwind Blue-700 */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    opacity: 0.5;
+}
+
+
+.box1{
+   margin-right: 9rem; 
+}
+
+.box2{
+    /* padding: 1.25rem; */
+    /* background-color: #e5e7eb;  */
+    border-radius: 0.5rem; /* Tailwind Rounded-lg */
+    padding-top: 3rem;
+    margin: 1.25rem;
+    color: #FFFFFF;
+}
+
+.box2 ul li{
+    display: flex;
+    flex-direction: column;
+    color: #24262b;
+    padding-top: 5px;
+    color: #FFFFFF;
+}
+
+
+.box3{
+    /* padding: 1.25rem; */
+    /* background-color: #e5e7eb;  */
+    border-radius: 0.5rem; /* Tailwind Rounded-lg */
+    /* padding-top: 3rem; */
+    margin: 1.25rem;
+    color: #FFFFFF;
+    
+}
+
+/* .box3 a{
+    background-color: rgba(10, 10, 10, 0.979);
+	
+    border-radius: 50%;
+	color: #ffffff;
+    border: 1px solid white;
+	transition: all 0.5s ease;
+    padding: 5px;
+} */
+
+.box3 ul {
+    display: flex;
+    flex-direction: column;
+    color: #24262b;
+    padding-top: 5px;
+}
+
+.box3 ul li{
+    
+    padding-top: 5px;
+    color: #FFFFFF;
+}
+
+.follow span{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,117 @@
+
+.filter-container {
+    margin: 0 auto;
+    /* max-width: 300px;  */
+   
+    left:0;
+    height: 100%;
+   box-sizing: border-box;
+   /* overflow-y: auto; */
+   
+   height:  calc(100vh - 100px);;
+  }
+
+.head_content{
+/* display: flex;
+flex-direction: row; */
+display: grid;
+grid-template-columns: 1fr 3fr;
+gap: 1rem;
+}
+
+  
+  .filter-section {
+    border-top: 1px solid #e5e7eb; /* Equivalent to border-gray-200 */
+    padding: 24px 16px; /* Equivalent to px-4 py-6 */
+    max-width: 300px;
+  }
+  
+  .filter-header {
+    margin: -8px -8px -8px -8px; /* Equivalent to -mx-2 -my-3 */
+  }
+  
+  .filter-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; /* Equivalent to bg-white */
+    padding: 12px 8px; /* Equivalent to px-2 py-3 */
+    color: #9ca3af; /* Equivalent to text-gray-400 */
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .filter-button:hover {
+    color: #6b7280; /* Equivalent to hover:text-gray-500 */
+  }
+  
+
+.filter_h{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter_c{
+text-align: start;
+font-weight: 500;
+color: #111827;
+}
+
+  .filter-title {
+    font-weight: 600; /* Equivalent to font-medium */
+    color: #111827; 
+    font-size: 18px;
+   
+
+  }
+  
+  .filter-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: currentColor;
+  }
+  
+  .expand-icon {
+    display: block;
+  }
+  
+  .collapse-icon {
+    display: none;
+  }
+  
+  .filter-content {
+    padding-top: 24px; /* Equivalent to pt-6 */
+  }
+  
+  .filter-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; /* Equivalent to space-y-6 */
+  }
+  
+  .filter-checkbox {
+    width: 16px; /* Equivalent to w-4 */
+    height: 16px; /* Equivalent to h-4 */
+    border-radius: 4px; /* Equivalent to rounded */
+    border: 1px solid #d1d5db; /* Equivalent to border-gray-300 */
+    color: #4f46e5; /* Equivalent to text-indigo-600 */
+    outline: none;
+  }
+  
+  .filter-checkbox:focus {
+    ring: 2px solid #4f46e5; /* Equivalent to focus:ring-indigo-500 */
+  }
+  
+  .filter-label {
+    margin-left: 12px; /* Equivalent to ml-3 */
+    flex: 1;
+    color: #6b7280; /* Equivalent to text-gray-500 */
+  }
